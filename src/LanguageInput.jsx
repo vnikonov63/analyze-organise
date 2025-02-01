@@ -1,9 +1,14 @@
+import { useState } from "react";
+import correctVersion from "./rules";
+
 export default function LanguageInput({
   flag,
+  id,
   country,
   setCurrentWord,
   currentWord,
 }) {
+  const [wordValidity, setWordValidity] = useState(false);
   return (
     <>
       <p>{flag}</p>
@@ -11,8 +16,9 @@ export default function LanguageInput({
         type="text"
         placeholder=""
         onChange={(e) => setCurrentWord(e.target.value)}
-        value={currentWord}
+        value={correctVersion({ word: currentWord, id: id })}
       />
+      {wordValidity ? <p>✅</p> : <p>❌</p>}
     </>
   );
 }
