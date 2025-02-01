@@ -1,10 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
+import Inputs from "./Inputs";
+
 const App = () => {
   return (
     <StrictMode>
-      <h1>Hello, Whats is happening</h1>
+      <Inputs />
     </StrictMode>
   );
 };
