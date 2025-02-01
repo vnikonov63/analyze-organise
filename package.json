@@ -1,0 +1,27 @@
+{
+  "name": "analyze-organise",
+  "version": "1.0.0",
+  "description": "## Visualisation tool for checking the spelling in different version of English English is not my first language, but I have studied it since childhood. During my elementary and middle school years, I learned British English. Later, when I moved to the United States to pursue my education, I had to re-learn how to spell words using the American standard. To showcase my familiarity with React, I decided to create a simple webpage where users can check the different spellings of words in various English variants.",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "lint": "eslint"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-react": "^7.37.4",
+    "vite": "^6.0.11"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
