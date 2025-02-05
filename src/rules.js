@@ -5,6 +5,8 @@ const rules = [
 ];
 
 export default function correctVersion({ word, id }) {
+  if (!word) return;
+
   const rule = rules.find(
     ({ location, variations }) =>
       location === "end" && word.endsWith(variations[id])

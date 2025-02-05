@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot testing with nothing in cart 1`] = `
+<DocumentFragment>
+  <p />
+  <input
+    placeholder=""
+    type="text"
+  />
+  <p>
+    ❌
+  </p>
+</DocumentFragment>
+`;
